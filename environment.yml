@@ -1,0 +1,11 @@
+name: conda-forge-contributions
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python>=3.8
+  - pip
+  # For running
+  - jinja2
+  - pandas
+  - requests
